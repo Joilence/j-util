@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "j-util"
+version = "0.1.0"
+description = "Some functions often used in projects"
+authors = ["Jonathan Yang <hi@jyang.cc>"]
+readme = "README.md"
+packages = [{include = "j_util"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+loguru = "^0.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
