@@ -8,7 +8,7 @@ from loguru import logger
 
 def cur_dt_str():
     """get current datetime in string format
-    :return: current datetime in string format
+    :return: current datetime in string format "yyyymmdd-hhmmss"
     """
     return datetime.now().strftime("%Y%m%d-%H%M%S")
 
