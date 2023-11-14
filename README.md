@@ -1,3 +1,3 @@
 # J-Util
 
-Utility functions often used in my personal projects.
+Useful utility functions and scripts.
